@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@100;300;400;500;600&display=swap");
+$grey-color: #282a2a;
+$orange-color: #e88136;
+$black-color: #000;
+$white-color: #fff;
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-y: hidden;
+}
+.header-wrapper {
+    .bg-grey {
+        height: 48px;
+        background-color: $grey-color;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .text-wrapper {
+            font-size: 32px;
+            font-weight: bold;
+            .text-orange {
+                color: $orange-color;
+            }
+        }
+    }
+    .bg-black {
+        background-color: $black-color;
+        height: 36px;
+        display: flex;
+        .wrapper {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .text-sale {
+                font-size: 18px;
+                color: $white-color;
+            }
+        }
+    }
+}
+.card-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    a {
+        text-decoration: none;
+        color: unset;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 324px;
+            height: 280px;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            object-fit: cover;
+            width: 100%;
+        }
+        h3 {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+            min-height: 50px;
+        }
+        .price-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            h2 {
+                font-size: 32px;
+            }
+            p {
+                font-size: 16px;
+                margin: 0;
+                margin-left: 10px;
+            }
+        }
+        button {
+            color: $white-color;
+            background-color: $orange-color;
+            width: 100%;
+            font-weight: bold;
+            border: 0;
+            padding: 10px 0;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+    }
+}
+.footer-wrapper {
+    .list {
+        display: flex;
+        justify-content: space-around;
+        background-color: $black-color;
+        border-radius: 50px;
+        padding: 0 10px;
+        li {
+            color: $white-color;
+            padding: 10px 0px;
+            font-size: 18px;
+            @media (max-width:767px) {
+                font-size: 14px;
+            }
+            &.active {
+                color: $orange-color;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.product-wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .img-wrapper {
+        overflow: hidden;
+        img {
+            object-fit: cover;
+            height: 400px;
+            width: 400px;
+        }
+    }
+    .product-description {
+        h1 {
+            font-size: 32px;
+        }
+        hr {
+            color: $orange-color;
+            height: 3px;
+        }
+        .description {
+            margin-top: 20px;
+            margin-bottom: 70px;
+        }
+        p {
+            .text-price {
+                color: $orange-color;
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+        button {
+            border: 0;
+            background-color: $orange-color;
+            padding: 8px 15px;
+            color: $white-color;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+    }
+}
+.title-wrapper {
+    h2 {
+        font-size: 32px;
+    }
+    hr {
+        height: 3px;
+        color: $orange-color;
+    }
+}
