@@ -6,12 +6,12 @@ export default function ProductDetails() {
         <div className='product-wrapper'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-12 col-md-4 d-flex justify-content-center'>
+                    <div className='col-12 col-lg-4 d-flex justify-content-start justify-content-lg-center'>
                         <div className='img-wrapper'>
                             <img src={img1}></img>
                         </div>
                     </div>
-                    <div className='col-12 col-md-8 d-flex justify-content-start'>
+                    <div className='col-12 col-lg-8 d-flex justify-content-start'>
                         <div className='product-description'>
                             <h1>Little Star Kids' Gold Earrings</h1>
                             <hr></hr>
