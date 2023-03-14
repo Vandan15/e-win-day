@@ -7,7 +7,7 @@ export default function privacy() {
     <>
     <Header/>
     <div className='dynamic-wrapper container'>
-      <h2>Eday Winshop Privacy Policy</h2>
+      <h2>Privacy Policy</h2>
       <p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from <a href='https://www.eday-winshop.online/'>https://www.eday-winshop.online/</a>.</p>
 
       <h3>PERSONAL INFORMATION WE COLLECT</h3>
