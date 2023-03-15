@@ -7,10 +7,10 @@ export default function Footer() {
     <div className='footer-wrapper container'>
         <ul className='list'>
             <li className='active'>Home</li>
-            <li>Win</li>
+            {/* <li>Win</li>
             <li>Aviator</li>
             <li>Luck Hit</li>
-            <li>Mine</li>
+            <li>Mine</li> */}
         </ul>
     </div>
     <div className='sub-footer container'>
