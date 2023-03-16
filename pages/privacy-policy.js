@@ -51,7 +51,7 @@ Additionally when you make a purchase or attempt to make a purchase through the 
       <p>We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.</p>
       
       <h3>CONTACT US</h3>
-      <p>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at <a href='mailto:archithitech@gmail.com'>archithitech@gmail.com</a> or by mail using the details provided below:</p>
+      <p>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at <a href='mailto:traderschoudhary2507@gmail.com'>traderschoudhary2507@gmail.com</a> or by mail using the details provided below:</p>
       <p>  Plot no 1 Gali no 4 dheeraj Nagar aitmadpur , Faridabad, HR, 121002, India</p>
     </div>
     <Footer/>

@@ -166,7 +166,7 @@ export default function terms() {
 
 <h3>SECTION 20 - CONTACT INFORMATION
 </h3>
-<p>Questions about the Terms of Service should be sent to us at <a href='mailto:archithitech@gmail.com'>archithitech@gmail.com</a>.
+<p>Questions about the Terms of Service should be sent to us at <a href='mailto:traderschoudhary2507@gmail.com'>traderschoudhary2507@gmail.com</a>.
 </p>
       </div>
       <Footer />
