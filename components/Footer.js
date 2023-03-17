@@ -6,10 +6,10 @@ export default function Footer() {
     <>
     <div className='footer-wrapper container'>
         <ul className='list'>
-            <li><Link href='/'><a className='active'>Home</a></Link></li>
-            <li><Link href='/about-us'><a>About Us</a></Link></li>
-            <li><Link href='/'><a>Category</a></Link></li>
-            <li><Link href='/contact-us'><a>Contact Us</a></Link></li>
+            <li><Link href='/'><a target={'_self'} className='active'>Home</a></Link></li>
+            <li><Link href='/about-us'><a target={'_self'}>About Us</a></Link></li>
+            <li><Link href='/'><a target={'_self'}>Category</a></Link></li>
+            <li><Link href='/contact-us'><a target={'_self'}>Contact Us</a></Link></li>
         </ul>
     </div>
     <div className='sub-footer container'>
