@@ -6,7 +6,6 @@ $white-color: #fff;
 * {
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
     font-family: "Poppins", sans-serif;
 }
 
@@ -14,6 +13,7 @@ body {
     background-image: url('/bg.png');
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
     background-size: cover;
 }
 h1,
@@ -23,6 +23,9 @@ h4,
 h5,
 h6 {
     overflow-y: hidden;
+}
+li {
+    list-style: none;
 }
 .header-wrapper {
     .bg-grey {
@@ -57,10 +60,6 @@ h6 {
 .card-wrapper {
     padding-top: 50px;
     padding-bottom: 50px;
-    a {
-        text-decoration: none;
-        color: unset;
-    }
     .box {
         display: flex;
         flex-direction: column;
@@ -109,6 +108,10 @@ h6 {
             border-bottom-left-radius: 15px;
         }
     }
+    .filter-wrapper {
+        margin-bottom: 35px;
+        width: 300px;
+    }
 }
 .footer-wrapper {
     .list {
@@ -119,6 +122,7 @@ h6 {
         padding: 0 10px;
         li {
             color: $white-color;
+            list-style: none;
             padding: 10px 0px;
             font-size: 18px;
             @media (max-width: 767px) {

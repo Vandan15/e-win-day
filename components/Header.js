@@ -11,11 +11,11 @@ export default function Header() {
                     </div>
                 </Link>
             </div>
-            <div className='bg-black'>
+            {/* <div className='bg-black'>
                 <div className='container wrapper'>
                     <span className='text-sale'>SALE ENDS in 02:30 Hrs</span>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

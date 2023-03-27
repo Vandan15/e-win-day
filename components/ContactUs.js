@@ -17,8 +17,13 @@ export default function ContactUs() {
                     <hr></hr>
                     <div className='reset'>
                         <p className='address'><b>ADDRESS</b><br></br>
-                        Plot no 1, Lane 4, Dheeraj Nagar, Aitmadpur, Faridabad, Haryana
-                            <br></br>Phone - 7217886990</p>
+                            Plot no 1, Lane 4, Dheeraj Nagar, Aitmadpur, Faridabad, Haryana
+                            <br></br>Phone - 7217886990
+                        </p>
+
+                        <p className='address'><b>SUPPORT EMAIL</b><br></br>
+                            <a href='mailto:traderschoudhary2507@gmail.com'>traderschoudhary2507@gmail.com</a>
+                        </p>
                     </div>
                 </div>
             </div>

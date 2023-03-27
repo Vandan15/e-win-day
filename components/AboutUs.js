@@ -29,6 +29,11 @@ export default function AboutUs() {
         <h2 className='text-sub'>Online Shop</h2>
         <p className='para-sub'>Shop online for latest Apparel, Beauty, Home decor, Fragrances, Accessories & Luxury Watches at great prices. Express Delivery for all Prepaid orders.</p>
 
+        <h2 className='text-sub'>Contact Address</h2>
+        <p className='para-sub'>Plot no 1, Gali no 4, dheeraj Nagar, aitmadpur, Faridabad haryana 121002</p>
+        <h2 className='text-sub'>Support Email</h2>
+        <p className='para-sub'><a href='mailto:traderschoudhary2507@gmail.com'>traderschoudhary2507@gmail.com</a></p>
+
         {/* <div className='btn-wrapper'>
             <div className='btn'>
             <Link href='/'><button>SHOP ONLINE</button></Link>
