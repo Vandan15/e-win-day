@@ -202,6 +202,7 @@ li {
     .bg-wallet {
         background-color: $black-color;
         padding: 50px;
+        margin-bottom: 50px;
         @media (max-width:991px) {
             padding: 30px;
         }

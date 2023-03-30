@@ -8,7 +8,7 @@ export default function Footer() {
         <ul className='list'>
             <li><Link href='/'><a target={'_self'} className='active'>Home</a></Link></li>
             <li><Link href='/about-us'><a target={'_self'}>About Us</a></Link></li>
-            {/* <li><Link href='/'><a target={'_self'}>Category</a></Link></li> */}
+            <li><Link href='/game'><a target={'_self'}>Game</a></Link></li>
             <li><Link href='/contact-us'><a target={'_self'}>Contact Us</a></Link></li>
         </ul>
     </div>
